@@ -1,0 +1,13 @@
+This is a small exercise that is based upon @Ania Kubow's Memory Game.
+All assets are from "https://game-icons.net". My version of the project is slightly different.
+I added a bit more styling and functionality. As you can see in the code, there are two .js files.
+
+Whenever I make a project I try to not put too much code in my main file. This enables me to utilise functions and reuse them in other projects.
+For this game I randomized the order of an array. I did this without the sort() method. Rather, to get a randomized order iteration was used.
+
+The player can play again without reloading the entire page. This was done by adding an eventlistener to the "Play Again"-button. 
+Here some key variables are reset and a couple of functions are called. Iteration was also prefered when removing all children of a given node.
+Using innerHTML is also an option but this is not recommended because it could have performance issues.
+
+All in all, I thoroughly enjoyed making this game in my free time. Later, I would like to make more sophisticated applications.
+Give me feedback if you like to or propose a project I should do next.
